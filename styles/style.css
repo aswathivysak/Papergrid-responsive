@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    
+}
+.shipping{
+    height: 48px;
+    cursor: pointer;
+   
+}
+.shipping:hover{
+   opacity: 0.95;
+    
+}
+.navbar{
+    height: 89px;
+    position:sticky !important;
+    top: 0;
+    z-index: 1020;
+   
+}
+ .navbar-brand img{
+    height: 25px;
+    
+}
+
+.nav-link:hover{
+   text-decoration: underline;
+   color: white !important;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+    
+}
+.icon-1:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+
+}
+
+/* main section */
+.row div img{
+    max-width:95%;
+    height: auto;
+}
+.profile{
+    margin-top: 65px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+.article img{
+  width:100%;
+  height: auto;
+}
+.about{
+    margin: 60px;
+}
+.about h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.about h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 23px;
+}
+.about button{
+    background-color: black;
+    border:none;
+    color:white;
+    padding: 15px 40px;
+    font-size: 17px;
+    font-weight: 300;
+    cursor:pointer;
+}
+/* footer section */
+.footer{
+    margin-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.num{
+    color: rgb(188, 181, 181);
+}
+.num:hover{
+    color: rgb(255, 255, 255);
+}
+.footer p{
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+.insta{
+    color: white;
+    height: 20px;
+}
+.insta:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+}
+.copyright{
+    border-top: 0.5px solid gray;
+    padding: 70px;
+    font-size: 13px;
+    height: 150px;
+}
+.copyright a,p{
+    color: rgb(188, 181, 181);
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 20px;
+
+}
+.copyright a:hover{
+    color: white;
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .about{
+        text-align: center;
+    }
+    
+    .copyright {
+        flex-wrap: wrap; 
+        justify-content: center; 
+        text-align: center; 
+    }
+
+    .copyright a,
+    .copyright span {
+        white-space: nowrap; 
+    }
+    
+    
+}
